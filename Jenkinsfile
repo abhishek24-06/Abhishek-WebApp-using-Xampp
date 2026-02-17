@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/abhishek24-06/Abhishek-WebApp-using-Xampp.git'
+                git branch: 'main', url: 'https://github.com/abhishek24-06/Abhishek-WebApp-using-Xampp.git'
             }
         }
 
